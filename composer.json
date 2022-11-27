@@ -1,24 +1,22 @@
 {
-    "name": "test-composer/laravel",
-    "description": "add to composer",
+    "name": "file-upload/service",
+    "description": "File upload service for php/laravel",
     "type": "library",
+    "require": {
+        "php": ">=8.0.2",
+        "intervention/image": ">=2.7"
+    },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "chhay"
-        }
-    ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "TestComposer\\laravel\\": "src/"
+            "FileUpload\\Service\\": "src/"
         }
     },
-    "require": {
-        "php": ">=8.1.6",
-        "intervention/image": "^2.7"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    }
+    "authors": [
+        {
+            "name": "Kim Chhay",
+            "email": "chihe333@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }

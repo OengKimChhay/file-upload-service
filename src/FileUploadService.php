@@ -1,6 +1,6 @@
 <?php
 
-namespace TestComposer\laravel;
+namespace FileUpload\Service;
 
 use Exception;
 use Illuminate\Contracts\Filesystem\Filesystem;
